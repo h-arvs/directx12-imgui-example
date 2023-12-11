@@ -1,7 +1,7 @@
 # directx12 imgui example
 ## Building
 You will require:
-* cmake 3.8 or higher
+* cmake 3.15 or higher
 * a compiler
 * DirectX sdk
 
