@@ -286,7 +286,7 @@ static void ImGui_ImplWin32_UpdateKeyModifiers()
 
 static void ImGui_ImplWin32_UpdateMouseData()
 {
-    ImGui_ImplWin32_Data* bd = ImGui_ImplWin32_GetBackendData();
+    /*ImGui_ImplWin32_Data* bd = ImGui_ImplWin32_GetBackendData();
     ImGuiIO& io = ImGui::GetIO();
     IM_ASSERT(bd->hWnd != 0);
 
@@ -310,7 +310,7 @@ static void ImGui_ImplWin32_UpdateMouseData()
             if (::GetCursorPos(&pos) && ::ScreenToClient(bd->hWnd, &pos))
                 io.AddMousePosEvent((float)pos.x, (float)pos.y);
         }
-    }
+    }*/
 }
 
 // Gamepad navigation mapping
